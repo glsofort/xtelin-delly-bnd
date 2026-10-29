@@ -16,7 +16,7 @@ cd "$SCRIPT_DIR"
 # --- defaults ---
 DEFAULT_BAM="${SCRIPT_DIR}/../170TFW.deduped.bam"
 DEFAULT_REF="/mnt/storage/bioinformatics-data/kian/hg19/hs37d5.fa"
-EXTRACT_SCRIPT="${SCRIPT_DIR}/../scripts/extract_bnd.py"
+EXTRACT_SCRIPT="${SCRIPT_DIR}/scripts/extract_bnd.py"
 OUTDIR="${SCRIPT_DIR}/nf_results"
 
 BAM_INPUT="${1:-$DEFAULT_BAM}"

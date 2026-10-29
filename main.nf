@@ -39,7 +39,7 @@ nextflow.enable.dsl = 2
 params.bam    = null
 params.ref    = null
 params.outdir = 'nf_results'
-params.extract_script = '/mnt/storage/bioinformatics-data/kian/xtelin/scripts/extract_bnd.py'
+params.extract_script = 'scripts/extract_bnd.py'
 
 if (!params.bam) { error "Must specify --bam <file.bam> or --bam '*.bam'" }
 if (!params.ref) { error "Must specify --ref <GRCh37_with_decoys.fa>" }
