@@ -1,0 +1,16 @@
+# Nextflow runtime
+.nextflow/
+.nextflow.*.log
+*.trace.*
+
+# Pipeline outputs
+nf_results/
+nf_reports/
+work/
+results/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
